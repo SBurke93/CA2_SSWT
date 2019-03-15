@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+
+  
+  
+  <head>
+    
+    
+    <title><%= yield(:title) %> | The Phone Shop</title>
+    
+    
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+      
+      
+      
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+
+  <header class="header">
+        <h1>The Phone Shop</h1>
+
+        <ul>
+            <li><%= link_to "Home",    "/" %></li>
+            <li><%= link_to "Products",    "/items" %></li>
+            <li><%= link_to "About",     about_path %></li>
+            <li><%= link_to "Help",       help_path %></li>
+        </ul>
+  </header>
+
+
+
+    <body>
+      <%= yield %>
+    </body>
+  
+  
+  
+ 
+    <footer class="foot">
+    
+       <%= image_tag("giphy2.gif", alt: "a gif i found", :class => "foot") %>
+
+         <form name="myForm" action="action.php"
+          onsubmit="return validateForm()" method="post">
+          Email:<br> <input type="email" placeholder="Enter your email" >
+          <input type="submit" value="GO!">
+          </form>
+    
+      <p>&copy;  Web Design and Development. Copyright | 2019 All Rights Reserved ®</p>
+
+    </div>
+  
+  
+  
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="js/slipScroll.js"></script>
+            
+            
+</footer>
+
+  
+  
+</html>

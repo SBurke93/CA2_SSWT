@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div id="itemsContainer">
+  
+  
+  <h1><%= @item.title %></h1>
+  <%= image_tag @item.image_url, :class => 'welcomIm' %>
+
+
+    <div class="itemhols">
+    
+      <h1>Price <%= number_to_currency(@item.price, :unit => "€") %></h1>
+        <br>
+        <br>
+        
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+
+
+        <br>
+        <br>
+        <p><%= @item.description %></p>
+          Category: <%= @item.category %>
+          <br>
+          Brand: <%= @item.brand %>
+      </p>
+        
+      <p>
+          <%= link_to 'Back',  items_path, :class => "button", :role => "button" %>
+          <%= link_to 'Edit',  edit_item_path(@item), :class => "button", :role => "button" %>
+         
+      </p>
+      
+  
+
+    </div>
+
+</div>

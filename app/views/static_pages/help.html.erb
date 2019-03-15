@@ -1,0 +1,35 @@
+
+<% provide(:title, "Help") %>
+
+
+
+
+
+    <div class="mainCont">
+
+
+
+        <h1>TURN AROUND DOROTHY!!!</h1>
+            <%= image_tag("foot.jpg", alt: "Welcome Logo", :class => "welcomeIm") %>
+            <p>You've have taken a wrong turn. Please find your way back to the Yellow Brick Road.</p>
+            <br>
+            <br>
+            <p>This will store the businesses contact information aswel as shop location, email address and possible a customer form to allow for feedback and growth of the webstore. </p>
+        
+        <br>
+        
+        <br>
+        <p>Please enter your e-mail address if you are in any need of assistance. Make sure to enter a valid address.</p>
+        
+        <form name="myForm" action="action.php"
+          onsubmit="return validateForm()" method="post">
+          Email:<br> <input type="email" placeholder="Enter your email" >
+          <input type="submit" value="Get help!">
+         </form>
+       
+    </div>
+    
+    
+<br> 
+
+

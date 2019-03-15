@@ -1,0 +1,340 @@
+.header {
+    background: url("/assets/site/callable-links.png");
+    background-repeat: no-repeat;
+    background-size: 50% 255px;
+    min-height:10px;
+    background-color: #003B86;
+      width: 100%;
+    margin-bottom:10px;
+    overflow: auto;
+}
+
+.header h1 {
+    font-family: 'Roboto Condensed', Sans-Serif;
+    color: white;
+    font-size: 75px;
+    padding: 12px;
+    text-align: right;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+
+
+
+
+
+
+ul { 
+    font-family: 'Roboto Condensed', Sans-Serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #222222;    
+    font-size: 26px;
+    color: white
+}
+
+
+li {
+    float:left;
+    width: 16%;
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* ##### static pages main content area ##### */
+
+
+.mainCont { 
+    font-family: 'Roboto Condensed', Sans-Serif;
+    margin: auto;
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+
+
+
+}
+
+
+.mainCont h1 {
+    font-family: 'Roboto Condensed', Sans-Serif;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+body, html {
+    height: 100%;
+     background-color: #222222;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ###### ITEM ########*/
+
+
+#itemsContainer {
+    width: 100%;
+    text-align: center;
+}
+
+
+#itemsContainer h1 {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2.9em;
+    font-family: 'Roboto Condensed', Sans-Serif;
+    color:  #222222;
+}
+
+
+#itemsContainer h3 {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-family: 'Roboto Condensed', Sans-Serif;
+    color:  #222222;
+}
+
+
+
+/* #### form #### */
+
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 11px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+}
+
+
+
+input[type=submit]:hover {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+
+}
+
+
+
+
+
+
+
+/* #### item index container #####*/
+
+.itemhols {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 29%;
+    padding:5px;
+    background-color: white;
+
+}
+
+
+
+.itemhols h1 {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #222222;
+}
+
+
+.itemhols p {
+    display: block;
+    color: #222222;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Roboto Condensed', Sans-Serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+.itemholsIm {
+    width: 45%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+
+
+
+
+
+.button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+    transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+
+
+
+
+
+
+
+
+.foot {
+
+    min-height: 90px;
+    background-color: #003B86;
+    width: 100%;
+      overflow: auto;
+      font-family: 'Roboto Condensed', Sans-Serif;
+      color: white;
+      font-size: 20px;
+      font-weight: 200;
+      margin-top: 100px;
+  
+}
+
+.welcomeIm {
+
+  width: 90%;
+  height:90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checked {
+  color: orange;
+}
+
+
+
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
